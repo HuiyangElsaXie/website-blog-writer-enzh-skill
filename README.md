@@ -1,5 +1,7 @@
 # website-blog-writer-enzh-skill
 
+Start with the [paired English/Simplified Chinese guide and review handoff](examples/fictional-guide.md). [Skill entry](skills/website-blog-writer-enzh/SKILL.md) · [Review cases](VALIDATION.md). / 先看已有中英成稿与审阅说明；示例虚构。
+
 **Website Blog Writer EN/ZH / 网站中英博客写作**
 
 An evidence-controlled blog writing skill used with an AI agent. It turns a brief and accessible approved background into editable English and native Simplified Chinese candidates, a review package and an optional content handoff for a website team.
@@ -73,4 +75,4 @@ Maintained for personal use and updated as the workflow evolves. No new root ope
 
 个人自用，会持续更新。新增与适配部分未指定根开源许可证，详见权利与来源说明。实际采用的第三方部分继续适用其原许可；个人自用的定位不缩减原许可已授予的商用等权利。
 
-Canonical repository: [website-blog-writer-enzh-skill](https://github.com/HuiyangElsaXie/website-blog-writer-enzh-skill). Related workflows: [general social](https://github.com/HuiyangElsaXie/social-media-post-writer-skill), [EN/ZH blog](https://github.com/HuiyangElsaXie/website-blog-writer-enzh-skill), [RedNote](https://github.com/HuiyangElsaXie/rednote-writer-skill).
+Canonical repository: [website-blog-writer-enzh-skill](https://github.com/HuiyangElsaXie/website-blog-writer-enzh-skill). Related workflows: [general social](https://github.com/HuiyangElsaXie/social-media-post-writer-skill), [RedNote](https://github.com/HuiyangElsaXie/rednote-writer-skill).
