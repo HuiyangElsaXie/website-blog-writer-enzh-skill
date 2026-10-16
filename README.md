@@ -67,10 +67,10 @@ See [worked example](examples/fictional-guide.md) and [validation cases](VALIDAT
 
 Adaptation snapshot: `review-draft-1` (2026-10-16), based on private blog production source `0.2.1`. This README clarification documents existing behavior; it adds no tool or publishing capability. Source pilot results do not transfer to this copy. See [provenance](PROVENANCE.md) and [rights](RIGHTS.md). No new open-source license has been selected.
 
-## Portfolio and rights / 作品展示与权利
+## Personal use and updates / 个人自用与持续更新
 
-Published as a demonstration of a reusable writing workflow and a reference for the use cases described above. It does not certify generated output, platform compliance, traffic or business results. The owner authorized this sanitized public snapshot. No new root open-source license is assigned; see [rights](RIGHTS.md) and [provenance](PROVENANCE.md). Identified upstream licenses retain their own permissions, including commercial use where granted.
+Maintained for personal use and updated as the workflow evolves. No new root open-source license is assigned; see [rights](RIGHTS.md) and [provenance](PROVENANCE.md). Identified third-party portions retain their own license permissions, including commercial use where granted. Personal-use positioning does not impose a non-commercial restriction on those portions.
 
-此公开版展示作者的通用写作工作流，可按上述场景了解和评估。它不是生成质量、平台合规或业务效果的认证。新增与适配部分未指定根开源许可证；实际采用的第三方部分保留原许可，不用“非商用”覆盖其既有权利。
+个人自用，会持续更新。新增与适配部分未指定根开源许可证，详见权利与来源说明。实际采用的第三方部分继续适用其原许可；个人自用的定位不缩减原许可已授予的商用等权利。
 
 Canonical repository: [website-blog-writer-enzh-skill](https://github.com/HuiyangElsaXie/website-blog-writer-enzh-skill). Related workflows: [general social](https://github.com/HuiyangElsaXie/social-media-post-writer-skill), [EN/ZH blog](https://github.com/HuiyangElsaXie/website-blog-writer-enzh-skill), [RedNote](https://github.com/HuiyangElsaXie/rednote-writer-skill).
