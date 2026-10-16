@@ -28,9 +28,9 @@ An evidence-controlled blog writing skill used with an AI agent. It turns a brie
 
 ## Use / 使用
 
-Use [skills/website-blog-writer-enzh/SKILL.md](skills/website-blog-writer-enzh/SKILL.md). Copy that skill folder into your AI agent's supported skill directory or provide the entrypoint explicitly. The current agent drafts and reviews the prose under these instructions; no external writer is required.
+Use [skills/website-blog-writer-enzh/SKILL.md](skills/website-blog-writer-enzh/SKILL.md). Keep the full repository and provide that entrypoint explicitly. Copying only the child skill folder omits root examples/provenance; any host-specific installation must preserve the complete layout. The current agent drafts and reviews the prose under these instructions; no external writer is required.
 
-将技能文件夹放入 agent 支持的技能目录，或明确提供入口文件。由当前 agent 按流程写作和审阅，不依赖外部 Writer。已有可访问背景应先复用并简要说明。
+保留完整仓库，并明确提供上述入口文件；仅复制技能子目录会遗漏根目录示例与来源说明。宿主自动发现规则需另行核对。由当前 agent 按流程写作和审阅，不依赖外部 Writer。已有可访问背景应先复用并简要说明。
 
 ## Inputs and outputs / 输入与交付
 

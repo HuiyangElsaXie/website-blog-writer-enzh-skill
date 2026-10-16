@@ -5,6 +5,8 @@ description: "Create, revise or review evidence-controlled website blog articles
 
 # Website Blog Writer EN/ZH
 
+Optional first-use reference: [the existing paired EN/ZH guide and review handoff](../../examples/fictional-guide.md). It is a fictional writing example, not measured evidence; do not require it for every edit. Keep the full repository and provide this nested entrypoint explicitly so ../../examples and root provenance/rights remain available. Copying only the child skill folder omits those resources.
+
 Produce useful bilingual articles grounded in the user's permitted evidence. End with editable candidates and one consolidated review package. The current assistant writes the prose; no external writer or publishing adapter is required.
 
 ## Establish the writing contract
