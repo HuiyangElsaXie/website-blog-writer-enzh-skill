@@ -44,6 +44,14 @@ For file-based handoffs, record candidate paths and SHA-256 when file tools are 
 
 文件交接按实际能力记录路径与 SHA-256，不虚构已保存文件或已计算哈希。文章正文与审阅说明分开；候选锁定只是版本完整性记录，不代表用户批准。
 
+## Editorial flow and decisions / 编辑流程与判断
+
+1. **You / 你** supply the brief, permitted sources and requested language scope; site conventions matter only for a requested handoff. / 提供简报、获准来源和语言范围；需要网站交接时再给站点规范。
+2. **AI** drafts and reviews the English factual master; **you** clarify material facts or disclosure blockers when needed. / AI 起草、审阅英文事实主稿，关键事实或披露阻塞由你澄清。
+3. **AI** identifies that candidate and adapts it into native Chinese, preserving facts and claim strength. A single-language edit stays within its requested scope. / 锁定所用候选版本再做中文适配；单语言编辑不强走双语流程。
+4. **AI** performs bounded repairs and bilingual checks, returning editable candidates, review notes/status and any requested semantic handoff. / 完成有界修正和双语检查，交付可编辑候选稿、审阅状态与按需语义交接。
+5. **You / 你** judge factual/disclosure/voice fit and decide later website or publication work. READY FOR REVIEW is not your approval. / 判断事实、披露与语气是否合适，再决定后续网站或发布工作；可审阅不等于已批准。
+
 ## Agent and tool dependencies / Agent 与工具依赖
 
 The core writing workflow needs an AI agent and adequate accessible evidence, not a specific model, paid research provider, website framework or publication adapter. External research, if needed, depends on actual permitted browsing/search tools and source access; reading or writing files and computing hashes depend on host file capabilities. The skill does not grant account access, paid-call authority or access to unavailable history.
