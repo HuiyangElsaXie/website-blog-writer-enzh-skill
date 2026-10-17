@@ -1,0 +1,29 @@
+{
+  "record_type": "reconstructed execution log, not a captured shell transcript",
+  "events": [
+    {
+      "order": 1,
+      "tool": "exec_command",
+      "action": "PowerShell Get-Content entry SKILL.md, case brief.md and case.json",
+      "outcome": "exit 0; content loaded; some punctuation displayed damaged"
+    },
+    {
+      "order": 2,
+      "tool": "exec_command",
+      "action": "mandated Python -X utf8 read editorial-workflow.md and content-handoff.md, print ASCII-escaped JSON",
+      "outcome": "exit 0; both references loaded"
+    },
+    {
+      "order": 3,
+      "tool": "assistant editorial work",
+      "action": "brief/evidence review; English review before Chinese adaptation; native Chinese and bilingual equivalence review before submission",
+      "outcome": "passed limited factual scope; runtime unresolved and disclosed; no material repair"
+    },
+    {
+      "order": 4,
+      "tool": "exec_command",
+      "action": "mandated Python -X utf8 save EN v1, hash actual bytes, save ZH v1, hash actual bytes, hash loaded rules, save first complete raw-response.md unchanged, tool-availability.md and this reconstructed commands.json",
+      "outcome": "save operations completed before success marker; no post-submission review or repair"
+    }
+  ]
+}

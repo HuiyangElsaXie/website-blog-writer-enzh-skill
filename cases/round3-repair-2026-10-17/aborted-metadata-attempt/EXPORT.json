@@ -1,0 +1,31 @@
+{
+  "status": "ABORTED BEFORE FIRST ANSWER",
+  "excluded_from_completed_case_count": true,
+  "reason": "metadata exposed prior findings; discarded before submission and replaced with a clean fresh independent execution",
+  "files": [
+    {
+      "path": "ABORTED.md",
+      "original_sha256": "689f28de25f3747a1114d020037e4b2eb21adb22ec49f6b37d5c3f62252e5d02",
+      "exported_sha256": "689f28de25f3747a1114d020037e4b2eb21adb22ec49f6b37d5c3f62252e5d02",
+      "local_path_redacted": false
+    },
+    {
+      "path": "brief.md",
+      "original_sha256": "a77d5bf7a7fdff9a4a4f77a19db747bfda19cae8ff44c7ec36f439e528a25d0b",
+      "exported_sha256": "a77d5bf7a7fdff9a4a4f77a19db747bfda19cae8ff44c7ec36f439e528a25d0b",
+      "local_path_redacted": false
+    },
+    {
+      "path": "case.json",
+      "original_sha256": "899e21f2041d7b7444ddac4bbfa19a7f8a3f28d8a6aaeb8d29a886f6c7e99c49",
+      "exported_sha256": "899e21f2041d7b7444ddac4bbfa19a7f8a3f28d8a6aaeb8d29a886f6c7e99c49",
+      "local_path_redacted": false
+    },
+    {
+      "path": "commands.json",
+      "original_sha256": "dc3945930f8a6442cec2acf55ad4eb4106494c648e97e54b29f819148fd584a7",
+      "exported_sha256": "dc3945930f8a6442cec2acf55ad4eb4106494c648e97e54b29f819148fd584a7",
+      "local_path_redacted": false
+    }
+  ]
+}

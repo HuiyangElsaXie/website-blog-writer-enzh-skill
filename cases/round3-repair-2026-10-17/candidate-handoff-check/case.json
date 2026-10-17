@@ -1,0 +1,14 @@
+{
+  "repo": "website-blog-writer-enzh-skill",
+  "scenario": "candidate-handoff-check",
+  "configured_model": "gpt-6.1-sol",
+  "base_commit": "8d08f12c07936b068245546934773d21a2774fde",
+  "skill_entry": "skills/website-blog-writer-enzh/SKILL.md",
+  "loaded_rule_sha256": {
+    "skills/website-blog-writer-enzh/SKILL.md": "a296427c5fea74d8842823b6419f4aaa8cb39bc61e49686bce5070bbfd5e7b5d",
+    "skills/website-blog-writer-enzh/references/content-handoff.md": "6b07381ad41a05e29dfe747621fe6ace17f256cf2a6fa01bcf81eb2c4151cc40",
+    "skills/website-blog-writer-enzh/references/editorial-workflow.md": "96a399633b94abb54f8b5d7c4e78c5396bbe5575849a0405ce22f7ec8d9e55c5"
+  },
+  "network_paid_accounts_business_tools": "prohibited",
+  "input_origin": "root-authored synthetic input; executor did not create the brief"
+}

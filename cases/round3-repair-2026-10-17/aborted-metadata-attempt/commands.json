@@ -1,0 +1,36 @@
+{
+  "log_type": "reconstructed from actual tool events",
+  "first_answer_submitted": false,
+  "prior_findings_metadata_seen": true,
+  "events": [
+    {
+      "outcome": "exit 0; read all three, including prior-findings metadata",
+      "sequence": 1,
+      "action": "Get-Content SKILL.md, brief.md, case.json",
+      "tool": "exec_command via functions.exec"
+    },
+    {
+      "outcome": "exit 0; read both references",
+      "sequence": 2,
+      "action": "Get-Content references/editorial-workflow.md and references/content-handoff.md",
+      "tool": "exec_command via functions.exec"
+    },
+    {
+      "outcome": "exit 0; actual hashes matched case metadata",
+      "sequence": 3,
+      "hashes": {
+        "SKILL.md": "a296427c5fea74d8842823b6419f4aaa8cb39bc61e49686bce5070bbfd5e7b5d",
+        "references/editorial-workflow.md": "96a399633b94abb54f8b5d7c4e78c5396bbe5575849a0405ce22f7ec8d9e55c5",
+        "references/content-handoff.md": "6b07381ad41a05e29dfe747621fe6ace17f256cf2a6fa01bcf81eb2c4151cc40"
+      },
+      "action": "Specified python.exe -X utf8; pathlib read_bytes and hashlib.sha256 for three loaded rules; ASCII JSON output",
+      "tool": "exec_command via functions.exec"
+    },
+    {
+      "outcome": "This save operation; no further case work",
+      "sequence": 4,
+      "action": "Record parent-directed abort using Set-Content ABORTED.md and commands.json",
+      "tool": "exec_command via functions.exec"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "record_type": "Reconstruction of actual reviewer tool calls in this turn; not an automatically captured or verbatim shell transcript",
+  "reviewer": "r3_review_retests",
+  "events": [
+    {
+      "order": 1,
+      "tool": "functions.exec / exec_command",
+      "command": "Get-ChildItem -LiteralPath round3-repair -Name; Get-ChildItem -LiteralPath .runtime/python-tests/python.exe -ErrorAction SilentlyContinue | Select-Object -ExpandProperty FullName",
+      "outcome": "exit 0; directory names and runtime location only; no other run/review/report content read"
+    },
+    {
+      "order": 2,
+      "tool": "functions.exec / exec_command",
+      "command": "PowerShell foreach three assigned case paths: Get-ChildItem -Recurse -File; Get-Content -Raw brief.md, case.json, raw-response.md, FIRST-ANSWER.json, commands.json, tool-availability.md",
+      "outcome": "exit 0; assigned inputs read; non-ASCII terminal display damaged"
+    },
+    {
+      "order": 3,
+      "tool": "functions.exec / exec_command",
+      "command": "PowerShell here-string piped to & '.runtime/python-tests/python.exe' -X utf8 -; pathlib UTF-8 read assigned repository entry and relevant references/templates/example plus two saved blog candidates; json.dumps ensure_ascii=True",
+      "outcome": "exit 0; output truncated across brand section; reread in next call"
+    },
+    {
+      "order": 4,
+      "tool": "functions.exec / exec_command",
+      "command": "PowerShell here-string piped to & '.runtime/python-tests/python.exe' -X utf8 -; UTF-8 read brand SKILL.md and references/messaging-method.md; ASCII-escaped JSON",
+      "outcome": "exit 0; complete untruncated brand rules read"
+    },
+    {
+      "order": 5,
+      "tool": "functions.exec / exec_command",
+      "command": "PowerShell here-string piped to & '.runtime/python-tests/python.exe' -X utf8 -; hashlib.sha256 read_bytes for briefs, frozen answers, rules and candidates; compare FIRST hashes, candidate presence, LF/CRLF/BOM; reread Reddit reference with ASCII JSON",
+      "outcome": "exit 0; all frozen/rule/candidate hashes match; complete candidate bodies verified"
+    },
+    {
+      "order": 6,
+      "tool": "functions.exec / exec_command",
+      "command": "PowerShell here-string piped to & '.runtime/python-tests/python.exe' -X utf8 -; write only assigned reviews-retests audit.md, audit.json, commands.json using reviewed findings and byte hashes",
+      "outcome": "report generation; success confirmed by returned paths"
+    }
+  ]
+}

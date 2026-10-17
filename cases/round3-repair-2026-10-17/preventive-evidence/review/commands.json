@@ -1,0 +1,43 @@
+{
+  "recording": "Retrospective reconstruction of actual reviewer calls, not verbatim tool transcript. No simulated execution is claimed.",
+  "reviewer": "r3_review_c",
+  "model": "gpt-6.1-sol",
+  "events": [
+    {
+      "sequence": 1,
+      "command": "PowerShell Get-ChildItem -Name round3-repair; Get-ChildItem -Name .runtime/python-tests/python.exe",
+      "result": "exit 0; root names and interpreter presence only; no unapproved file content read"
+    },
+    {
+      "sequence": 2,
+      "command": "Specified .runtime/python-tests/python.exe -X utf8 via PowerShell here-string",
+      "action": "Read allowed brief.md, case.json, raw-response.md, FIRST-ANSWER.json, commands.json and tool-availability.md for the three assigned cases; enumerate repository SKILL.md/resource names",
+      "result": "exit 0"
+    },
+    {
+      "sequence": 3,
+      "command": "Specified Python -X utf8",
+      "action": "Read corresponding SKILL.md and case-listed relevant reference/template resources, plus actual blog en-v1.md and zh-v1.md",
+      "result": "exit 0"
+    },
+    {
+      "sequence": 4,
+      "command": "Specified Python -X utf8",
+      "action": "Compute byte SHA256 for allowed case inputs, frozen answers and blog candidates",
+      "result": "exit 0; frozen raw hashes match; blog candidate handoff hashes mismatch"
+    },
+    {
+      "sequence": 5,
+      "command": "Specified Python -X utf8",
+      "action": "Count blog candidate CRLF/LF and compute LF-normalized hashes",
+      "result": "exit 0; handoff hashes equal normalized bytes, not saved bytes"
+    },
+    {
+      "sequence": 6,
+      "command": "Specified Python -X utf8",
+      "action": "Write per-case reviews-c audit.md, audit.json and this reconstructed commands.json only",
+      "result": "recorded during write; completion reported by tool separately"
+    }
+  ],
+  "boundaries": "No case/repo edits; no prior reports/expected answers/parent scripts/private files or unrelated case contents read. No network/paid/account/Git/business calls."
+}

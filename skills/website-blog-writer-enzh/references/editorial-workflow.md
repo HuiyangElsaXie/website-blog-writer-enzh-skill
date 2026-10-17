@@ -17,6 +17,8 @@ First-party evidence is optional for a search-led explainer, often useful for pr
 
 Mark interpretations and hypotheses. Do not imply causality, customer results, professional authority, rankings or conversion outcomes without evidence. If a central fact is missing or disclosure is unresolved, ask the narrow question or return a blocked draft. Anonymization is insufficient when the details remain identifying.
 
+Preventive attribution check: do not assign an omitted speaker, count, date or channel to vague feedback, or invent a "spec sheet"/"customer feedback" attribution. Keep it unattributed or out of the article. Retain both sides of conflicting figures as UNKNOWN; do not average them, turn them into a range or choose silently. With no evidence for a central health/safety/effect claim, return a blocked draft rather than fill the gap with generic assertions.
+
 ## English editorial
 
 Follow the brief and reader's actual need. Use clear headings and direct answers where helpful. Add a Quick Answer, FAQ, table or takeaways only if it serves real reader questions; none is mandatory. Use semantic lists for discrete parallel items and ordered lists for meaningful sequence. Do not manufacture steps to justify a HowTo label.
@@ -36,6 +38,8 @@ Choose lists and headings independently for Chinese readability. Check English w
 ## Integrity and bounded repairs
 
 Identify a stable article key and candidate version. For file-based handoffs, record exact file paths within the chosen output location and SHA-256 for the EN candidate used by ZH, plus ZH identity. Do not call these owner-approved or frozen. If a candidate changes, invalidate and recheck only dependent work; retain the prior review record when relevant.
+
+Compute candidate SHA-256 from the actual saved file bytes after writing, not a pre-write string or newline-normalized text. Record the same file version that the adaptation and handoff actually use; a semantically equivalent LF/CRLF variant is not the same byte identity.
 
 For material blockers, use targeted repairs with a maximum of two attempts per blocker and four material content mutations across an article cycle. A single mutation counts once globally while incrementing each blocker it addresses. Audits and ordinary wording preferences do not consume that budget. Recheck affected claims, brief, privacy and bilingual equivalence after each mutation. Stop on repeated failure, oscillating repairs, exhausted budget or unresolved central evidence; report the narrow issue. User-requested revisions create a new review version and are not automatic repair attempts.
 

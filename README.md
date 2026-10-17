@@ -76,3 +76,5 @@ Maintained for personal use and updated as the workflow evolves. No new root ope
 个人自用，会持续更新。新增与适配部分未指定根开源许可证，详见权利与来源说明。实际采用的第三方部分继续适用其原许可；个人自用的定位不缩减原许可已授予的商用等权利。
 
 Canonical repository: [website-blog-writer-enzh-skill](https://github.com/HuiyangElsaXie/website-blog-writer-enzh-skill). Related workflows: [general social](https://github.com/HuiyangElsaXie/social-media-post-writer-skill), [RedNote](https://github.com/HuiyangElsaXie/rednote-writer-skill).
+
+Current targeted checks: [2026-10-17 targeted rule repairs and independent first-answer evidence](cases/round3-repair-2026-10-17/README.md). Initial partial results and later checks are reported separately. / 本轮规则修复、独立首稿及审核记录。
